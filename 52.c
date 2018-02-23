@@ -8,10 +8,10 @@ switch(a)
 case 1:
 printf("ONE");
 break;
-case 2
+case 2:
 printf("TWO");
 break;
-case 3
+case 3:
 printf("THREE");
 break;
 case 4:
@@ -33,7 +33,7 @@ case 9:
 printf("NINE");
 break;
 default:
-printf("INVALID);
+printf("INVALID");
 }
 return 0;
 }

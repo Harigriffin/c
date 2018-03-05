@@ -1,18 +1,26 @@
 #include<stdio.h>
 void main()
 {
-int a;
+int a,i;
 scanf("%d",&a);
 if(a<4)
 {
-printf("PRIME");
+printf("YES");
 }
 else
 {
 for(i=2;i<a;i++)
 {
+if(a%i!=0)
+{
+printf("YES");
+break;
+}
 if(a%i==0)
 {
-printf("PRIME");
+printf("NO");
 break;
+}
+}
+}
 }

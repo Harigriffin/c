@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
 int a,b,c,i,d=0;
@@ -16,5 +17,5 @@ if(d==0)
 printf("NO");
 else
 printf("YES");
-return 0;
+getch();
 }
